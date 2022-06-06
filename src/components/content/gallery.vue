@@ -31,4 +31,12 @@ export default {
     width:100%;
     height:100%;
 }
+@media screen and (max-width:767px) {
+    .gallery div{
+        display:inline-block;
+        width:100%;
+        margin-right:0px;
+        margin-bottom:11px;
+    }
+}
 </style>
